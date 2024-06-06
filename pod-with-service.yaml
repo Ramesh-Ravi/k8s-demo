@@ -23,7 +23,7 @@ metadata:
 spec:
   #hostname: frontend001
   containers:
-  - image: nginx
+  - image: nginx:1.15.0-alpine
     name: nginx-container
 ---
 apiVersion: v1
